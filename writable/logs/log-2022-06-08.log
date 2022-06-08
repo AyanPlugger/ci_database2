@@ -1,0 +1,48 @@
+CRITICAL - 2022-06-08 12:54:13 --> Undefined variable: session
+#0 C:\wamp64\www\codeigniter\app\Views\template\header.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 35, Array)
+#1 C:\wamp64\www\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\wamp64\www\codeigniter\app\Controllers\Home.php(39): view('template/header')
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->pessoas()
+#6 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#10 {main}
+CRITICAL - 2022-06-08 12:54:16 --> Undefined variable: session
+#0 C:\wamp64\www\codeigniter\app\Views\template\header.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 35, Array)
+#1 C:\wamp64\www\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\wamp64\www\codeigniter\app\Controllers\Home.php(108): view('template/header')
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#10 {main}
+CRITICAL - 2022-06-08 12:54:16 --> Undefined variable: session
+#0 C:\wamp64\www\codeigniter\app\Views\template\header.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 35, Array)
+#1 C:\wamp64\www\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\wamp64\www\codeigniter\app\Controllers\Home.php(39): view('template/header')
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->pessoas()
+#6 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#10 {main}
+CRITICAL - 2022-06-08 12:54:18 --> Undefined variable: session
+#0 C:\wamp64\www\codeigniter\app\Views\template\header.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 35, Array)
+#1 C:\wamp64\www\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\wamp64\www\codeigniter\app\Controllers\Home.php(19): view('template/header')
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->page('Login')
+#6 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#10 {main}

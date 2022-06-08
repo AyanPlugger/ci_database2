@@ -30,8 +30,21 @@
                             <a class="nav-link" href="quemsomos">Quem Somos</a>
                             <a class="nav-link" href="contato">Contato</a>
                             <a class="nav-link" href="Login">Login</a>
+
+                           <?php
+                            $session = \Config\Services::session();
+
+                            if($session->get('logado')){
+                                
+                            
+                           ?>
                             <a class="nav-link" href="cadastro">Cadastro</a>
                             <a class="nav-link" href="pessoa">Usuarios</a>
+                            <a class="nav-link" href="sair">Sair</a>
+                            <?php 
+                            }//fim do if
+                            ?>
+                              
                         </div>
                         </div>
                     </div>
