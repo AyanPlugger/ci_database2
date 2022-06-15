@@ -1,0 +1,108 @@
+ERROR - 2022-06-15 12:01:19 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+ERROR - 2022-06-15 12:03:19 --> Table 'teste.tb_pessoas' doesn't exist
+ERROR - 2022-06-15 12:03:59 --> Table 'teste.tb_pessoas' doesn't exist
+ERROR - 2022-06-15 12:05:59 --> Table 'teste.tb_pessoas' doesn't exist
+CRITICAL - 2022-06-15 12:38:20 --> Invalid file: cadastroCarros.php
+#0 C:\wamp64\www\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastroCarros....')
+#1 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('cadastroCarros', Array, true)
+#2 C:\wamp64\www\codeigniter\app\Controllers\Home.php(20): view('cadastroCarros')
+#3 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->page('cadastroCarros')
+#4 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#8 {main}
+CRITICAL - 2022-06-15 12:38:22 --> Invalid file: cadastroCarros.php
+#0 C:\wamp64\www\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastroCarros....')
+#1 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('cadastroCarros', Array, true)
+#2 C:\wamp64\www\codeigniter\app\Controllers\Home.php(20): view('cadastroCarros')
+#3 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->page('cadastroCarros')
+#4 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#8 {main}
+CRITICAL - 2022-06-15 12:39:30 --> Class 'App\Controllers\CarrosModel' not found
+#0 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->gravarCarro()
+#1 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-06-15 12:43:49 --> Class 'App\Controllers\CarrosModel' not found
+#0 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->gravarCarro()
+#1 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-06-15 12:44:33 --> Class 'App\Controllers\CarrosModel' not found
+#0 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->gravarCarro()
+#1 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-06-15 12:44:35 --> Class 'App\Controllers\CarrosModel' not found
+#0 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->gravarCarro()
+#1 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+ERROR - 2022-06-15 12:53:39 --> Unknown table 'teste.tb_carros'
+ERROR - 2022-06-15 12:55:05 --> Unknown table 'teste.tb_carros'
+CRITICAL - 2022-06-15 12:58:14 --> Undefined variable: title
+#0 C:\wamp64\www\codeigniter\app\Views\carro.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 1, Array)
+#1 C:\wamp64\www\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('carro', Array, true)
+#4 C:\wamp64\www\codeigniter\app\Controllers\Home.php(20): view('carro')
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->page('carro')
+#6 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#10 {main}
+CRITICAL - 2022-06-15 13:01:03 --> Undefined variable: carros
+#0 C:\wamp64\www\codeigniter\app\Views\carro.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 12, Array)
+#1 C:\wamp64\www\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('carro', Array, true)
+#4 C:\wamp64\www\codeigniter\app\Controllers\Home.php(20): view('carro')
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->page('carro')
+#6 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#10 {main}
+CRITICAL - 2022-06-15 13:01:11 --> Undefined variable: carros
+#0 C:\wamp64\www\codeigniter\app\Views\carro.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 12, Array)
+#1 C:\wamp64\www\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('carro', Array, true)
+#4 C:\wamp64\www\codeigniter\app\Controllers\Home.php(20): view('carro')
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->page('carro')
+#6 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#10 {main}
+CRITICAL - 2022-06-15 13:02:56 --> Invalid file: cadastroCarros.php
+#0 C:\wamp64\www\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastroCarros....')
+#1 C:\wamp64\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('cadastroCarros', Array, true)
+#2 C:\wamp64\www\codeigniter\app\Controllers\Home.php(22): view('cadastroCarros')
+#3 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->page('cadastroCarros')
+#4 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#8 {main}
+CRITICAL - 2022-06-15 13:03:06 --> Class 'App\Controllers\CarrosModel' not found
+#0 C:\wamp64\www\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->gravarCarro()
+#1 C:\wamp64\www\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}

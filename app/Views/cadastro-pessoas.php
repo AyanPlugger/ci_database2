@@ -37,6 +37,13 @@
     <div class="row">
         <div class="col-6">
             <div class="d-grid gap-2">
+            <label for="">Senha: </label>
+            <input type="password" class="form-control" name="senha"
+                value="<?= isset($pessoa['senha']) ? $pessoa['senha'] : ""  ?>">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="d-grid gap-2">
                 <button type="submit" class="btn btn-primary mt-3">Enviar</button>
             </div>
         </div>

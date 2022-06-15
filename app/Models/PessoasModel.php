@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class PessoasModel extends Model{
     protected $table = 'tb_pessoas';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['nome', 'profissao', 'idade'];
+    protected $allowedFields = ['nome', 'profissao', 'idade', 'senha'];
 
     public function getPessoas(){
         return $this->findAll();
